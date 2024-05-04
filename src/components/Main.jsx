@@ -7,7 +7,7 @@ import Home from "../pages/Home.jsx";
 const Main = () => {
     return (
         <Routes>
-            <Route path="/portfolio/home" element={<Home/>}/>
+            <Route path="/portfolio/" element={<Home/>}/>
             <Route path="/portfolio/aboutMe" element={<AboutMe/>}/>
             <Route path="/portfolio/contact" element={<Contact/>}/>
         </Routes>
