@@ -14,7 +14,7 @@ const Header = () => {
             <nav className={"h-full bg-[#1c1b1ae6] mx-4 rounded-full border-[#ffffff0d] border-2 shadow backdrop-blur-2xl md:rounded-none md:mx-0 md:border-0"}>
                     <ul className={"flex flex-row justify-between items-center h-full text-white mx-4 text-[0.8rem] md:justify-center"}>
                         <li className={"mx-4"}>
-                            <NavLink to={"/portfolio/"} className={activePage}>Home</NavLink>
+                            <NavLink to={"/portfolio/home"} className={activePage}>Home</NavLink>
                         </li>
                         <li className={"mx-4"}>
                             <NavLink to={"/portfolio/aboutMe"} className={activePage}>About Me</NavLink>
